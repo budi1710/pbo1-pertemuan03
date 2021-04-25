@@ -1,7 +1,10 @@
 package string;
 
 public class Operasistring {
-    public static void main(String[] args) {
+    private static String[] args;
+
+    public static <string> void main(String[] args) {
+        Operasistring.args = args;
         string kota = "Banjarbaru";
 
         System.out.println(kota);
