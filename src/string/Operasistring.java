@@ -5,7 +5,7 @@ public class Operasistring {
 
     public static <string> void main(String[] args) {
         Operasistring.args = args;
-        string kota = "Banjarbaru";
+        string kota = (string) "Banjarbaru";
 
         System.out.println(kota);
 
